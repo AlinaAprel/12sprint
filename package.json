@@ -4,7 +4,8 @@
   "description": "API и аутентификация",
   "main": "public/main.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "lint": "eslint app.js",
     "lint:fix": "eslint ./src --fix"
   },
