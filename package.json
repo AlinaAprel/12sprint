@@ -2,7 +2,7 @@
   "name": "12sprint",
   "version": "0.0.1",
   "description": "API и аутентификация",
-  "main": "public/main.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
@@ -21,9 +21,13 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.4",
     "nodemon": "^2.0.6",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.4.1",
     "express": "^4.17.1",
     "install": "^0.13.0",
     "mongoose": "^5.10.11",

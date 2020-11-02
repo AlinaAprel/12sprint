@@ -17,6 +17,6 @@ app.listen(PORT, () => {
 })
 
 app.use('/', (req, res) => {
-  res.status(404).json({message: `Ресурс не найден`});
+  res.status(404).json({message: `Запрашиваемый ресурс не найден`});
 });
 

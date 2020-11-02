@@ -1,7 +1,7 @@
 const routerUsersId = require('express').Router();
 const fs = require('fs').promises;
 
-routerUsersId.get('/users/:id', (req, res, err) => {
+routerUsersId.get('/users/:id', (req, res) => {
   fs.readFile('./data/users.json', 'utf-8')
   .then((data) => {
     const users = JSON.parse(data);
