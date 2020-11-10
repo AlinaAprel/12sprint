@@ -12,5 +12,6 @@ module.exports = {
       "sourceType": "module"
   },
   "rules": {
+    "allow": ["foo_", "_bar"]
   }
 };

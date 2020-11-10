@@ -30,7 +30,7 @@
     "core-js": "^3.4.1",
     "express": "^4.17.1",
     "install": "^0.13.0",
-    "mongoose": "^5.10.11",
+    "mongoose": "^5.10.13",
     "normalize-port": "^1.0.0"
   }
 }
